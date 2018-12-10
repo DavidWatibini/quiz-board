@@ -6,8 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/styles.css">
-  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-  <link href="js/scripts.js">
+  <script src="js/jquery-3.3.1.js"></script>
+  <script src="js/scripts.js">
+
+  </script>
   <title>Quiz Board</title>
 </head>
 
@@ -58,61 +60,68 @@
               <div class="panel-heading">
                 <h2>Introduction to JavaScript</h2>
               </div>
-
+              <br>
+              <br>
               Q1. JavaScript is a ?
               <br>
-              <input type="radio" name="JavaScript is a" value="computer framework">computer framework
+              <label for="computer frameworks">computer frameworks</label>
+              <input class="calc" type="radio" name="radio1" value="0" />
               <br>
-              <input type="radio" name="JavaScript is a" value="computer language">computer language
+              <label for="computer language">computer language</label>
+              <input class="calc" type="radio" name="radio1" value="10" /><br />
+              <label for="computer extension">computer extension</label>
+              <input class="calc" type="radio" name="radio1" value="0" /><br />
               <br>
-              <input type="radio" name="JavaScript is a" value="computer extension">computer extension
               <br>
-              <br>
-
               Q2. What is JavaScript used for ?
               <br>
-              <input type="radio" name="What is JavaScript used for" value="Styling web-pages">Styling web-pages
+              <label for="computer frameworks">computer frameworks</label>
+              <input class="calc" type="radio" name="radio2" value="0" />
               <br>
-              <input type="radio" name="What is JavaScript used for" value="Creating web-page structures">Creating web-page structures
+              <label for="Styling web-page">Styling web-page</label>
+              <input class="calc" type="radio" name="radio2" value="0" /><br />
+              <label for="Creating web-page structure">Creating web-page structure</label>
+              <input class="calc" type="radio" name="radio2" value="10" /><br />
               <br>
-              <input type="radio" name="What is JavaScript used for" value="making web-pages interactive">making web-pages interactive
               <br>
-              <br>
-
               Q3. What is the other name of JavaScript ?
               <br>
-              <input type="radio" name="What is the other name of JavaScript" value="html">html
+              <label for="ECMAScript">ECMAScript</label>
+              <input class="calc" type="radio" name="radio3" value="10" />
               <br>
-              <input type="radio" name="What is the other name of JavaScript" value="ECMAScript">ECMAScript
-              <br>
-              <input type="radio" name="What is the other name of JavaScript" value="Jquery">
+              <label for="html">html</label>
+              <input class="calc" type="radio" name="radio3" value="0" /><br />
+              <label for="css">css</label>
+              <input class="calc" type="radio" name="radio3" value="0" /><br />
               <br>
               <br>
 
-              Q4.Can JavaScript perform arithmetics
+              Q4.Can JavaScript perform arithmetics?
               <br>
-              <input type="radio" name="Can JavaScript perform arithmetics" value="Yes">Yes
+              <label for="yes">no</label>
+              <input class="calc" type="radio" name="radio4" value="0" />
               <br>
-              <input type="radio" name="Can JavaScript perform arithmetics" value="No">No
-              <br>
-              <input type="radio" name="Can JavaScript perform arithmetics" value="Not sure">Not sure
+              <label for="no">yes</label>
+              <input class="calc" type="radio" name="radio4" value="10" /><br />
+              <label for="not sure">not sure</label>
+              <input class="calc" type="radio" name="radio4" value="0" /><br />
               <br>
               <br>
 
               Q5. All web-pages are built using JavaScript ?
               <br>
-              <input type="radio" name="All web-pages are built using JavaScript" value="No">No
+              <label for="not sure">not sure</label>
+              <input class="calc" type="radio" name="radio5" value="0" />
               <br>
-              <input type="radio" name="All web-pages are built using JavaScript" value="Not sure">Not Sure
+              <label for="yes">yes</label>
+              <input class="calc" type="radio" name="radio5" value="0" /><br />
+              <label for="no">no</label>
+              <input class="calc" type="radio" name="radio5" value="10" /><br />
               <br>
-              <input type="radio" name="All web-pages are built using JavaScript" value="yes">Yes
-<br>
-<br>
-<input id="btnsubmit" type="submit" value="submit">
+              <br>
 
-
-              <p></p>
-
+              Total Score:
+              <input type="text" name="sum" />
               <div class="panel-footer">
                 <div class="row">
                   <div class="col-md-3">
