@@ -10,3 +10,10 @@ $().ready(function(){
         calcscore()
     });
 });
+
+$(document).ready(function() {
+  $("#show").click(function() {
+    $(".container").show();
+    $(".login").hide();
+  });
+});

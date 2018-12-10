@@ -27,5 +27,6 @@ nav ul li{
 .questions p {
   color: blue;
 }
-
+.container{
+  display: none;
 }
