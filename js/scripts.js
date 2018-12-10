@@ -34,3 +34,11 @@ $(document).ready(function() {
     $("questions").slideup()
   });
 });
+
+$(document).ready(function() {
+  $("#score").click(function() {
+    $(".questions").hide();
+      $("#show-test").hide();
+    $(".score").show();
+  });
+});

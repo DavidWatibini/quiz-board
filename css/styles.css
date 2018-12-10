@@ -73,3 +73,13 @@ img {
   text-align: center;
   cursor: pointer;
 }
+.score {
+  display: none;
+  position: relative;
+  bottom: 100px;
+  margin-left: 280px;
+}
+#score {
+  margin-left: 45%;
+  margin-top: 5%;
+}
