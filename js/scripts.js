@@ -17,3 +17,20 @@ $(document).ready(function() {
     $(".login").hide();
   });
 });
+
+$(document).ready(function(){
+    $("#show").click(function(){
+        $(".container").animate({
+            left: '40px',
+            opacity:0.9
+
+        });
+    });
+});
+
+$(document).ready(function() {
+  $("#show-test p").click(function() {
+    $(".questions").show();
+    $("questions").slideup()
+  });
+});

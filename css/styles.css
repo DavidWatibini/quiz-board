@@ -39,12 +39,14 @@ nav ul li{
   font-size: 20px;
   font-family: 'Neucha', cursive;
   color: grey;
+  display: none;
 }
 .questions p {
   color: blue;
 }
 .container{
   display: none;
+  position: absolute;
 }
 .login {
   background: #EFF7F9;
@@ -61,4 +63,13 @@ nav ul li{
 }
 #full-names {
   margin-bottom: 50px;
+}
+img {
+  border-radius: 50%;
+}
+#show-test p {
+  font-family: 'Architects Daughter', cursive;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
 }
