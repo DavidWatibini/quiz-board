@@ -19,3 +19,14 @@ nav ul li{
   text-align: justify;
   color: white;
 }
+.questions {
+  font-size: 20px;
+  font-family: 'Neucha', cursive;
+  color: grey;
+}
+.questions p {
+  color: blue;
+}
+body{
+  
+}
