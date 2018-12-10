@@ -1,0 +1,21 @@
+.container{
+  margin: 0px;
+}
+.container-2 {
+  margin:20px;
+}
+.well {
+  margin: 0px;
+}
+nav{
+  position: fixed;
+  top: 30%;
+}
+nav ul li{
+  padding: 40px;
+  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  color: white;
+}
