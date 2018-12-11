@@ -42,3 +42,15 @@ $(document).ready(function() {
     $(".score").show();
   });
 });
+
+//function result() {
+  //var sides = [];
+  //sides.push(document.getElementById("full-names").value);
+  //sides.push(document.getElementById("email-address").value);
+  //var [a, b] = sides;
+  //var display = document.getElementById("display");
+
+  //if (a.length === 0 || b.length === 0 || c.length === 0) {
+    //alert("Please fill in all fields");
+    //confirm("Click on help for more information")
+  //}
