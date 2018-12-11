@@ -35,7 +35,11 @@ or just use this
 
 ## BDD
 
+1. The user selects values using the radio buttons provided.
 
+2. The user submits the checked radio buttons using a submit button to check on validity of inputs.
+
+3. The user gets a response of valid inputs through a score. 
 
 ## Live link
 
