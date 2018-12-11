@@ -1,8 +1,9 @@
-body{
+body {
   background-image: url("https://s16815.pcdn.co/wp-content/uploads/2016/03/iStock_000037379776_Medium.160328.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
 #overlay {
   position: fixed;
   overflow: auto;
@@ -14,20 +15,25 @@ body{
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.5);
 }
-.container{
+
+.container {
   margin: 0px;
 }
+
 .container-2 {
-  margin:20px;
+  margin: 20px;
 }
+
 .well {
   margin: 0px;
 }
-nav{
+
+nav {
   position: fixed;
   top: 30%;
 }
-nav ul li{
+
+nav ul li {
   padding: 40px;
   display: inline-block;
   display: flex;
@@ -35,22 +41,31 @@ nav ul li{
   text-align: justify;
   color: white;
 }
+
 nav ul li a {
   color: white;
 }
+
+a {
+  color: white;
+}
+
 .questions {
   font-size: 20px;
   font-family: 'Neucha', cursive;
   color: grey;
   display: none;
 }
+
 .questions p {
   color: blue;
 }
-.container{
+
+.container {
   display: none;
   position: absolute;
 }
+
 .login {
   background: #EFF7F9;
   text-align: center;
@@ -64,12 +79,15 @@ nav ul li a {
   position: relative;
   top: 120px;
 }
+
 #full-names {
   margin-bottom: 50px;
 }
+
 img {
   border-radius: 50%;
 }
+
 #showTest p {
   font-family: 'Architects Daughter', cursive;
   font-size: 20px;
@@ -77,29 +95,36 @@ img {
   cursor: pointer;
   color: #621B18;
 }
+
 .myScore {
   display: none;
   position: relative;
   bottom: 100px;
   margin-left: 280px;
 }
+
 #myScore {
   margin-left: 45%;
   margin-top: 5%;
 }
-.jumbotron{
+
+.jumbotron {
   background-color: #DAE1E7;
   color: #2779BD;
 }
+
 .well {
   background-color: #729cff;
 }
+
 .panel {
-  background-color:#DAE1E7;
+  background-color: #DAE1E7;
 }
+
 .panel-heading {
   background-color: #daccff;
 }
+
 #reset {
   position: relative;
   bottom: 7px;
