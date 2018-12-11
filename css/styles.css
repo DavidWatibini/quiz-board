@@ -35,6 +35,9 @@ nav ul li{
   text-align: justify;
   color: white;
 }
+nav ul li a {
+  color: white;
+}
 .questions {
   font-size: 20px;
   font-family: 'Neucha', cursive;
@@ -96,4 +99,8 @@ img {
 }
 .panel-heading {
   background-color: #daccff;
+}
+#reset {
+  position: relative;
+  bottom: 7px;
 }

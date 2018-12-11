@@ -12,6 +12,10 @@ $().ready(function(){
         calcScore()
     });
 });
+
+function reset() {
+  location.reload();
+}
 //user interface logic//
 
 $(document).ready(function() {
