@@ -67,11 +67,12 @@ nav ul li{
 img {
   border-radius: 50%;
 }
-#show-test p {
+#showTest p {
   font-family: 'Architects Daughter', cursive;
   font-size: 20px;
   text-align: center;
   cursor: pointer;
+  color: #621B18;
 }
 .myScore {
   display: none;
@@ -82,4 +83,17 @@ img {
 #myScore {
   margin-left: 45%;
   margin-top: 5%;
+}
+.jumbotron{
+  background-color: #DAE1E7;
+  color: #2779BD;
+}
+.well {
+  background-color: #729cff;
+}
+.panel {
+  background-color:#DAE1E7;
+}
+.panel-heading {
+  background-color: #daccff;
 }
