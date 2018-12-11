@@ -1,15 +1,18 @@
-function calcscore(){
-    var score = 0;
+//Busisness logic//
+
+function calcScore(){
+    var myScore = 0;
     $(".calc:checked").each(function(){
-        score+=parseInt($(this).val(),10);
+        myScore+=parseInt($(this).val(),10);
     });
-    $("input[name=sum]").val(score)
+    $("input[name=sum]").val(myScore)
 }
 $().ready(function(){
     $(".calc").change(function(){
-        calcscore()
+        calcScore()
     });
 });
+//user interface logic//
 
 $(document).ready(function() {
   $("#show").click(function() {
@@ -29,17 +32,17 @@ $(document).ready(function(){
 });
 
 $(document).ready(function() {
-  $("#show-test p").click(function() {
+  $("#showTest p").click(function() {
     $(".questions").show();
-    $("questions").slideup()
+    $("questions").slideUp()
   });
 });
 
 $(document).ready(function() {
-  $("#score").click(function() {
+  $("#myScore").click(function() {
     $(".questions").hide();
-      $("#show-test").hide();
-    $(".score").show();
+      $("#showTest").hide();
+    $(".myScore").show();
   });
 });
 
